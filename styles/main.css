@@ -49,8 +49,6 @@ header img {
 /* the styles for the navigation menu */
 #nav_menu ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
 	position: relative;
 }
 #nav_menu ul li {
@@ -59,7 +57,6 @@ header img {
 }
 #nav_menu ul li a {
     display: block;
-    width: 160px;
     text-align: center;
     padding: 1em 0;
     text-decoration: none;
