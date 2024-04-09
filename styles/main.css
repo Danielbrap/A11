@@ -74,6 +74,7 @@ header img {
     display: none;
     position: absolute;
     top: 100%;
+	width: 100%
 }
 #nav_menu ul ul li {
 	float: none;
@@ -91,7 +92,7 @@ header img {
 section {
 	width: 62.63%;
 	float: right;
-	padding: 0 20px 20px 20px;
+	padding: 0 2.5% 20px 2.5%;
 }
 section h1 {
 	font-size: 150%;
@@ -143,7 +144,7 @@ article img {
 aside {
 	width: 26.88%;
 	float: right;
-	padding: 0 0 20px 20px;
+	padding: 0 0 20px 2.5%;
 }
 aside h2 {
 	color: #800000;
@@ -176,7 +177,7 @@ footer p {
 }
 /*media query*/
 @media only screen and (max-width: 700px) {
-	aside h2 a {
+	aside h3 a {
 		font-size: 85%;
 	}
 	aside h2 {
@@ -196,7 +197,6 @@ footer p {
 	aside {
 		float: none;
 		padding-right: 2.5%;
-		padding-left: 2.5%;
 		width: 95%;
 	}
 	section {
@@ -209,9 +209,6 @@ footer p {
 	aside div {
 		column-count: 2;
 	}
-}
-@media only screen and (max-width: 550px) {
-
 	#nav_menu {
 		display: none;
 	}
@@ -221,8 +218,10 @@ footer p {
 	.slicknav_menu {
 		background-color: #800000 !important;
 	}
-
 }
+
 @media only screen and (max-width: 250px) {
-	font-size: 90%;
+	body {
+		font-size: 90%;
+	}
 }
